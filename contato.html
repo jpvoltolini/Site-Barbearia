@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	
+	<head> 
+		<meta charset="utf-8">
+		<title>Contato - Barbearia Don Voltolini </title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1> <img src="logo-branco.png"> </h1>
+				<nav>
+					<ul>
+						<li> <a href=" index.html">Home </a></li>
+						<li> <a href=" produtos.html">Produtos </a></li>
+						<li> <a href=" contato.html">Contato </a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+
+				<label for="Nomesobrenome"> Nome e Sobrenome </label>
+				<input type="text" id=" Nomesobrenome" class="input-padrao" required >
+
+				<label for="Email"> Email</label>
+				<input type="email" id="Email" class="input-padrao" required placeholder="email@dominio.com">
+
+				<label for="Telefone"> Telefone</label>
+				<input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem"> Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"required>
+				</textarea>
+
+			<div>
+
+				<p> Como prefere nosso contato?</p>
+
+				<label for="radio-email"> <input type="radio" name="contato" value="Email" id="radio-email"> Email</label>
+									
+				<label for="radio-telefone"> <input type="radio" name="contato" value="Telefone" id="radio-telefone"> Telefone</label>
+				
+				<label for="radio-whatsapp" > <input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp" checked> WhatsApp</label>
+					
+			</div>
+
+		<div>
+			<p>	Qual horario prefere ser atendido ?</p>
+			<select>
+				<option>Manhã</option>
+				<option>Tarde</option>
+				<option>Noite</option>
+			</select>
+			</div>
+
+
+			<label> <input type="checkbox" class="checkbox" checked> Desejo receber novidades e promoções por e-mail. </label>
+
+				<input type="submit" value=" Enviar Formulário">
+			
+			</form>
+		</main>
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Don Voltolini - 2021</p>
+		</footer>
+		
+
+	</body>
+</html>
+	

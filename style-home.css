@@ -1,0 +1,92 @@
+
+body {
+	background: url(bg1.jpg);
+}
+
+#banner {
+	width: 100%
+}
+
+.principal {
+	background: #008b8b;
+	padding: 30px;
+}
+.titulo-principal{ 
+	padding-left:20px;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius:10px;
+	background: #DAA520;
+	font: italic bold 30px times, sans-serif;
+	;
+	
+}
+
+
+.titulo-centralizado {text-align: center;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: #FF7F50;
+	margin: 0 1.5%;
+	padding: 30px 20px:;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius:10px;
+}
+
+.escrito {
+	position: relative;
+	display: block;
+	text-align: left;
+	width: 30%;
+	vertical-align: top;
+	background: #cccccc;
+	margin: 0 1.5%;
+	padding: 30px 20px:;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius:10px;
+}
+
+p { background: #cccccc;
+	text-align: center;
+}
+
+#missao { font-size: 22px;
+}
+
+em strong {color: #ff0000; background: #cccccc;
+}
+
+.itens {
+	font-style: italic;
+	font-size: 33px;
+}
+.benefícios {
+	background: #cccccc;
+	font-size: 33px;
+	padding: 20px;
+}
+
+#benef {
+	background: url(bg.jpg);
+	color: #ffffff;
+}
+
+ul {
+	display: block;
+	vertical-align: baseline;
+	width: 20%;
+	margin-right: 15%;
+
+}
+
+.imagembeneficios {
+	width: 50%
+}
